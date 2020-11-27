@@ -1,0 +1,405 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bg-img {
+  background-image: url(../image/background-image.jpg);
+  background-size: cover;
+  -webkit-filter: blur(15px);
+          filter: blur(15px);
+  height: 140vh;
+  width: 100%;
+}
+
+.wrapping {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 5;
+  position: absolute;
+  top: 0;
+}
+
+.sidebar {
+  position: fixed;
+  top: 5px;
+  bottom: 10px;
+}
+
+.main {
+  margin-left: 120px;
+}
+
+.sidebar {
+  height: 97vh;
+  width: 70px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  margin: 10px 20px;
+}
+
+.sidebar-nav .navbar-item {
+  padding: 25px;
+}
+
+.sidebar-nav .navbar-link {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.479);
+}
+
+.sidebar-nav .navbar-link:hover {
+  color: #ff5d8f;
+  border-bottom: 2px solid #ff5d8f;
+}
+
+.sidebar-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+  -webkit-box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.137);
+          box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.137);
+  margin: 180px 10px 10px 15px;
+}
+
+.main .menu-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90vw;
+  padding: 20px 0;
+}
+
+.main .menu-bar-title {
+  font-weight: bolder;
+}
+
+.main .menu-bar-form .menu-bar-input {
+  padding: 10px 100px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.274);
+  font-style: italic;
+}
+
+.main .menu-bar-icon i {
+  padding-left: 20px;
+  font-size: 25px;
+  color: #3f37c9;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .hero-card {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 40px 0 40px;
+  height: 900px;
+  border-radius: 20px;
+}
+
+.container .hero-card .active-section {
+  width: 300px;
+}
+
+.container .hero-card .active-section-title {
+  color: rgba(0, 0, 0, 0.719);
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.container .hero-card .active-section .filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .hero-card .active-section .filter .game-dropdown .filter-title {
+  color: rgba(0, 0, 0, 0.479);
+  font-size: 12px;
+}
+
+.container .hero-card .active-section .filter .game-dropdown .filter-dropdown-menu {
+  display: none;
+  width: 100px;
+}
+
+.container .hero-card .active-section .filter .game-dropdown .filter-dropdown-menu .filter-dropdown-item {
+  padding: 10px 0;
+}
+
+.container .hero-card .active-section .filter .game-dropdown .filter-dropdown-menu .filter-dropdown-item .filter-dropdown-links {
+  color: rgba(0, 0, 0, 0.479);
+  font-size: 12px;
+}
+
+.container .hero-card .active-section .filter .views-dropdown {
+  padding-left: 30px;
+}
+
+.container .hero-card .active-section .filter .views-dropdown .filter-title {
+  color: rgba(0, 0, 0, 0.479);
+  font-size: 12px;
+}
+
+.container .hero-card .active-section .filter .views-dropdown .filter-dropdown-menu {
+  display: none;
+  width: 100px;
+}
+
+.container .hero-card .active-section .filter .views-dropdown .filter-dropdown-menu .filter-dropdown-item {
+  padding: 10px 0;
+}
+
+.container .hero-card .active-section .filter .views-dropdown .filter-dropdown-menu .filter-dropdown-item .filter-dropdown-links {
+  color: rgba(0, 0, 0, 0.479);
+  font-size: 12px;
+}
+
+.container .hero-card .active-section .game-live .game-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+.container .hero-card .active-section .game-live .game-profile .game-profile-img {
+  width: 70px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.container .hero-card .active-section .game-live .game-profile .game-title .view-status {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.479);
+}
+
+.container .hero-card .active-section .game-live .more-down {
+  color: rgba(0, 0, 0, 0.479);
+  display: block;
+  width: 90px;
+  margin: auto;
+}
+
+.multi-section .video-section {
+  width: 650px;
+}
+
+.multi-section .video-section-img {
+  width: 650px;
+  border-radius: 15px;
+}
+
+.multi-section .video-section .video-duration {
+  position: relative;
+  top: -360px;
+  left: 560px;
+  font-size: 13px;
+}
+
+.multi-section .players-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.multi-section .players-list-title {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.719);
+  padding-right: 20px;
+}
+
+.multi-section .players-list .list-profile-img {
+  width: 45px;
+  height: 45px;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+
+.multi-section .players-list-link {
+  color: black;
+  font-size: 12px;
+}
+
+.multi-section .popular {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  width: 350px;
+}
+
+.multi-section .popular .most-popular-img {
+  width: 350px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.multi-section .popular .most-popular-content {
+  margin-top: -160px;
+  padding: 0 20px;
+}
+
+.multi-section .popular .most-popular-content .most-popular-budge {
+  background-color: white;
+  font-size: 13px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: relative;
+  top: -150px;
+  left: 240px;
+}
+
+.multi-section .popular .most-popular-content .most-popular-title {
+  color: white;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.multi-section .popular .most-popular-content .most-popular-sub-title {
+  color: white;
+  font-size: 12px;
+}
+
+.multi-section .popular .most-popular-content .most-popular-sub-title time {
+  padding-left: 15px;
+}
+
+.multi-section .popular .most-popular-content .most-popular-text {
+  color: white;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.multi-section .popular-feed .recommmend {
+  height: 190px;
+}
+
+.multi-section .popular-feed .recommmend-img {
+  width: 250px;
+  height: 140px;
+  border-radius: 20px;
+}
+
+.multi-section .popular-feed .recommmend .recommend-content {
+  margin-top: -55px;
+  margin-left: 20px;
+  color: #ff6d00;
+  font-weight: bolder;
+}
+
+.news-section .profile-card {
+  background-color: white;
+  width: 300px;
+  margin: 0 30px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.news-section .profile-card-img {
+  width: 300px;
+  border-radius: 20px 20px 0 0;
+}
+
+.news-section .profile-card-body {
+  padding-bottom: 20px;
+}
+
+.news-section .profile-card-body .profile-card-text {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.479);
+  width: 210px;
+  margin: 20px auto;
+}
+
+.news-section .profile-card-body .profile-achivement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 160px;
+  margin: auto;
+}
+
+.news-section .profile-card-body .profile-achivement .played-games-title {
+  font-size: 20px;
+}
+
+.news-section .profile-card-body .profile-achivement .played-games .played-game-sub-title {
+  font-size: 10px;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.479);
+}
+
+.news-section .profile-card-body .profile-achivement .ratings {
+  margin-left: 30px;
+}
+
+.news-section .profile-card-body .profile-achivement .ratings-title {
+  font-size: 20px;
+}
+
+.news-section .profile-card-body .profile-achivement .ratings .ratings-sub-title {
+  font-size: 10px;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.479);
+}
+
+.news-section .pop-up-news {
+  background-color: white;
+  width: 300px;
+  margin: 30px 30px;
+  border-radius: 20px;
+}
+
+.news-section .pop-up-news .pop-up-title {
+  padding: 20px 10px;
+  color: rgba(0, 0, 0, 0.719);
+}
+
+.news-section .pop-up-news .pop-up-img {
+  width: 300px;
+}
+
+.news-section .pop-up-news .pop-up-text {
+  font-size: 12px;
+  padding: 15px;
+  color: rgba(0, 0, 0, 0.479);
+}
+/*# sourceMappingURL=style.css.map */

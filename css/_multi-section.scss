@@ -1,0 +1,94 @@
+.multi-section {
+    .video-section {
+        width: 650px;
+        &-img {
+            width: 650px;
+            border-radius: 15px;
+        }
+        .video-duration {
+            position: relative;
+            top: -360px;
+            left: 560px;
+            font-size: 13px;
+        }
+    }
+    .players-list {
+        display: flex;
+        align-items: center;
+        &-title {
+            font-size: 13px;
+            color: $headingMuted;
+            padding-right: 20px;
+        }
+        .list-profile {
+            &-img {
+                width: 45px;
+                height: 45px;
+                margin: 0 10px;
+                border-radius: 50%;
+            }
+        }
+        &-link {
+            color: black;
+            font-size: 12px;
+        }
+    }
+    .popular {
+        display: flex;
+        margin-top: 30px;
+        width: 350px;
+        .most-popular {
+            &-img{
+                width: 350px;
+                border-radius: 20px;
+                margin-right: 20px;
+            }
+            &-content {
+                margin-top: -160px;
+                padding: 0 20px;
+                .most-popular-budge {
+                    background-color: white;
+                    font-size: 13px;
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                    position: relative;
+                    top: -150px;
+                    left: 240px;
+                }
+                .most-popular-title {
+                    color: white;
+                    font-size: 20px;
+                    padding: 10px 0;
+                }
+                .most-popular-sub-title {
+                    color: white;
+                    font-size: 12px;
+                    time {
+                        padding-left: 15px;
+                    }
+                }
+                .most-popular-text {
+                    color: white;
+                    font-size: 14px;
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+    .popular-feed {
+        .recommmend {
+            height: 190px;
+            &-img {
+                width: 250px;
+                height: 140px;
+                border-radius: 20px;
+            }
+            .recommend-content {
+                margin-top: -55px;
+                margin-left: 20px;
+                color: #ff6d00;
+                font-weight: bolder;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-img {
+    background-image: url(../image/background-image.jpg);
+    background-size: cover;
+    filter: blur(15px);
+    height: 140vh;
+    width: 100%;
+  }
+
+.wrapping {
+    display: flex;
+    z-index: 5;
+    position: absolute;
+    top: 0;
+}
+
+.sidebar {
+    position: fixed;
+    top: 5px;
+    bottom: 10px;
+}
+
+.main {
+    margin-left: 120px;
+}
+
+
+

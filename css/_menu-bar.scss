@@ -1,0 +1,29 @@
+.main {
+    .menu-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90vw;
+        padding: 20px 0;
+        &-title {
+            font-weight: bolder;
+        }
+        &-form {
+            .menu-bar-input {
+                padding: 10px 100px;
+                outline: none;
+                border: none;
+                border-radius: 50px;
+                background-color: rgba(255, 255, 255, 0.274);
+                font-style: italic;
+            }
+        }
+        &-icon {
+            i {
+                padding-left: 20px;
+                font-size: 25px;
+                color: $menuIcon;
+            }
+        }
+    }
+}
