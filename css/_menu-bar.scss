@@ -19,10 +19,12 @@
             }
         }
         &-icon {
-            i {
-                padding-left: 20px;
-                font-size: 25px;
-                color: $menuIcon;
+            &-link {
+                i {
+                    padding-left: 20px;
+                    font-size: 25px;
+                    color: $menuIcon;
+                }
             }
         }
     }
