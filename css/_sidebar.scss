@@ -1,18 +1,27 @@
 
 .sidebar {
     height: 97vh;
-    width: 70px;
+    width: 5vw;
     background-color: white;
     border: none;
     border-radius: 20px;
-    margin: 10px 20px;
+    margin: 0.5% 1.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     &-nav {
         .navbar {
             &-item{
-                padding: 25px;
+                padding: 50% 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                &:first-child {
+                    padding-top: 110%;
+                }
             }
             &-link{
-                font-size: 20px;
+                font-size: 1.5vw;
                 color: $textMuted;
                 &:hover {
                     color: $pink;
@@ -25,11 +34,12 @@
         }
     }
     &-avatar {
-        width: 40px;
-        height: 40px;
+        width: 3vw;
+        height: 6vh;
         border-radius: 50%;
         border: 1px solid $white;
         box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.137);
-        margin: 180px 10px 10px 15px;
+        margin-top: auto;
+        margin-bottom: 30%;
     }
 }

@@ -2,46 +2,48 @@
 .news-section {
     .profile-card {
         background-color: white;
-        width: 300px;
-        margin: 0 30px;
+        width: 20vw;
+        height: 64vh;
+        margin: 0 8%;
         text-align: center;
         border-radius: 20px;
         &-img {
-            width: 300px;
+            width: 20vw;
             border-radius: 20px 20px 0 0;
         }
         &-body {
-            padding-bottom: 20px;
+            padding-bottom: 8%;
             .profile-card-title {
-
+                padding-top: 8%;
+                font-size: 1.2vw;
             }
             .profile-card-text {
-                font-size: 13px;
+                font-size: 0.8vw;
                 color: $textMuted;
-                width: 210px;
-                margin: 20px auto;
+                width: 14vw;
+                margin: 4% auto;
             }
             .profile-achivement {
                 display: flex;
-                width: 160px;
+                width: 9vw;
                 margin: auto;
                 .played-games {
                     &-title {
-                        font-size: 20px;
+                        font-size: 1.2vw;
                     }
                     .played-game-sub-title {
-                        font-size: 10px;
+                        font-size: 0.6vw;
                         font-weight: bolder;
                         color: $textMuted;
                     }
                 }
                 .ratings {
-                    margin-left: 30px;
+                    margin-left: 10%;
                     &-title {
-                        font-size: 20px;
+                        font-size: 1.2vw;
                     }
                     .ratings-sub-title {
-                        font-size: 10px;
+                        font-size: 0.6vw;
                         font-weight: bolder;
                         color: $textMuted;
                     }
@@ -52,19 +54,20 @@
 
     .pop-up-news {
         background-color: white;
-        width: 300px;
-        margin: 30px 30px;
+        width: 20vw;
+        margin: 5% 8%;
         border-radius: 20px;
         .pop-up-title {
-            padding: 20px 10px;
+            padding: 7% 4%;
             color: $headingMuted;
+            font-size: 0.8vw;
         }
         .pop-up-img {
-            width: 300px;
+            width: 20vw;
         }
         .pop-up-text {
-            font-size: 12px;
-            padding: 15px;
+            font-size: 0.8vw;
+            padding: 5%;
             color: $textMuted;
         }
     }

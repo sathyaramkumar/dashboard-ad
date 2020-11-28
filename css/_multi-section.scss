@@ -1,93 +1,105 @@
 .multi-section {
     .video-section {
-        width: 650px;
+        width: 45vw;
         &-img {
-            width: 650px;
+            width: 45vw;
             border-radius: 15px;
         }
         .video-duration {
             position: relative;
-            top: -360px;
-            left: 560px;
-            font-size: 13px;
+            top: -24vw;
+            left: 38vw;
+            font-size: 1vw;
         }
     }
     .players-list {
         display: flex;
         align-items: center;
         &-title {
-            font-size: 13px;
+            font-size: 1vw;
             color: $headingMuted;
-            padding-right: 20px;
+            padding-right: 3%;
         }
         .list-profile {
             &-img {
-                width: 45px;
-                height: 45px;
-                margin: 0 10px;
+                width: 3vw;
+                height: 6vh;
+                margin: 0 0.5vw;
                 border-radius: 50%;
             }
         }
         &-link {
             color: black;
-            font-size: 12px;
+            font-size: 0.8vw;
+            padding-left: 3%;
         }
     }
     .popular {
         display: flex;
-        margin-top: 30px;
-        width: 350px;
+        margin-top: 4%;
+        width: 25vw;
         .most-popular {
             &-img{
-                width: 350px;
+                width: 25vw;
                 border-radius: 20px;
-                margin-right: 20px;
+                margin-right: 1vw;
             }
             &-content {
-                margin-top: -160px;
-                padding: 0 20px;
+                margin-top: -40%;
+                padding: 0 4%;
                 .most-popular-budge {
                     background-color: white;
-                    font-size: 13px;
-                    padding: 5px 10px;
+                    font-size: 0.9vw;
+                    padding: 1% 4%;
                     border-radius: 5px;
                     position: relative;
-                    top: -150px;
-                    left: 240px;
+                    top: -12vw;
+                    left: 16vw;
                 }
                 .most-popular-title {
                     color: white;
-                    font-size: 20px;
-                    padding: 10px 0;
+                    font-size: 1.4vw;
+                    padding: 3% 0;
                 }
                 .most-popular-sub-title {
                     color: white;
-                    font-size: 12px;
+                    font-size: 0.8vw;
                     time {
-                        padding-left: 15px;
+                        padding-left: 3%;
                     }
                 }
                 .most-popular-text {
                     color: white;
-                    font-size: 14px;
-                    padding: 10px 0;
+                    font-size: 1vw;
+                    padding: 1% 0;
                 }
             }
         }
     }
     .popular-feed {
         .recommmend {
-            height: 190px;
+            height: 26vh;
             &-img {
-                width: 250px;
-                height: 140px;
+                width: 20vw;
+                height: 22vh;
+                filter: brightness(50%);
                 border-radius: 20px;
+                z-index: -1;
             }
             .recommend-content {
-                margin-top: -55px;
-                margin-left: 20px;
-                color: #ff6d00;
+                position: relative;
+                top: -4vw;
+                left: 1vw;
+                color: $white;
                 font-weight: bolder;
+                z-index: 5;
+                .recommend-title {
+                    font-size: 1vw;
+                }
+                .recommend-sub-title {
+                    font-size: 0.9vw;
+                    font-weight: lighter;
+                }
             }
         }
     }

@@ -44,24 +44,48 @@ body {
 }
 
 .main {
-  margin-left: 120px;
+  margin-left: 9%;
 }
 
 .sidebar {
   height: 97vh;
-  width: 70px;
+  width: 5vw;
   background-color: white;
   border: none;
   border-radius: 20px;
-  margin: 10px 20px;
+  margin: 0.5% 1.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .sidebar-nav .navbar-item {
-  padding: 25px;
+  padding: 50% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar-nav .navbar-item:first-child {
+  padding-top: 110%;
 }
 
 .sidebar-nav .navbar-link {
-  font-size: 20px;
+  font-size: 1.5vw;
   color: rgba(0, 0, 0, 0.479);
 }
 
@@ -71,13 +95,14 @@ body {
 }
 
 .sidebar-avatar {
-  width: 40px;
-  height: 40px;
+  width: 3vw;
+  height: 6vh;
   border-radius: 50%;
   border: 1px solid white;
   -webkit-box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.137);
           box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.137);
-  margin: 180px 10px 10px 15px;
+  margin-top: auto;
+  margin-bottom: 30%;
 }
 
 .main .menu-bar {
@@ -91,26 +116,30 @@ body {
       -ms-flex-align: center;
           align-items: center;
   width: 90vw;
-  padding: 20px 0;
+  padding: 1.5% 0;
 }
 
 .main .menu-bar-title {
+  font-size: 2vw;
   font-weight: bolder;
 }
 
 .main .menu-bar-form .menu-bar-input {
-  padding: 10px 100px;
+  padding: 10px 0 10px 30%;
+  width: 20vw;
+  height: 5vh;
   outline: none;
-  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.26);
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 0.274);
   font-style: italic;
+  font-size: 0.9vw;
 }
 
-.main .menu-bar-icon i {
-  padding-left: 20px;
-  font-size: 25px;
-  color: #3f37c9;
+.main .menu-bar-icon .menu-bar-link i {
+  padding-right: 0.8vw;
+  font-size: 1.5vw;
+  color: #212529;
 }
 
 .container {
@@ -124,19 +153,20 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 40px 40px 0 40px;
-  height: 900px;
+  padding: 3% 3% 0 3%;
+  width: 60vw;
+  height: 120vh;
   border-radius: 20px;
 }
 
 .container .hero-card .active-section {
-  width: 300px;
+  width: 15vw;
 }
 
 .container .hero-card .active-section-title {
-  color: rgba(0, 0, 0, 0.719);
-  font-size: 13px;
-  padding-bottom: 10px;
+  color: rgba(0, 0, 0, 0.596);
+  font-size: 0.8vw;
+  padding-bottom: 4%;
 }
 
 .container .hero-card .active-section .filter {
@@ -147,44 +177,44 @@ body {
 
 .container .hero-card .active-section .filter .game-dropdown .filter-title {
   color: rgba(0, 0, 0, 0.479);
-  font-size: 12px;
+  font-size: 0.8vw;
 }
 
 .container .hero-card .active-section .filter .game-dropdown .filter-dropdown-menu {
   display: none;
-  width: 100px;
+  width: 7vw;
 }
 
 .container .hero-card .active-section .filter .game-dropdown .filter-dropdown-menu .filter-dropdown-item {
-  padding: 10px 0;
+  padding: 3% 0;
 }
 
 .container .hero-card .active-section .filter .game-dropdown .filter-dropdown-menu .filter-dropdown-item .filter-dropdown-links {
   color: rgba(0, 0, 0, 0.479);
-  font-size: 12px;
+  font-size: 0.8vw;
 }
 
 .container .hero-card .active-section .filter .views-dropdown {
-  padding-left: 30px;
+  padding-left: 9%;
 }
 
 .container .hero-card .active-section .filter .views-dropdown .filter-title {
   color: rgba(0, 0, 0, 0.479);
-  font-size: 12px;
+  font-size: 0.8vw;
 }
 
 .container .hero-card .active-section .filter .views-dropdown .filter-dropdown-menu {
   display: none;
-  width: 100px;
+  width: 7vw;
 }
 
 .container .hero-card .active-section .filter .views-dropdown .filter-dropdown-menu .filter-dropdown-item {
-  padding: 10px 0;
+  padding: 3% 0;
 }
 
 .container .hero-card .active-section .filter .views-dropdown .filter-dropdown-menu .filter-dropdown-item .filter-dropdown-links {
   color: rgba(0, 0, 0, 0.479);
-  font-size: 12px;
+  font-size: 0.8vw;
 }
 
 .container .hero-card .active-section .game-live .game-profile {
@@ -194,17 +224,21 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 0;
+  padding: 4% 0;
 }
 
 .container .hero-card .active-section .game-live .game-profile .game-profile-img {
-  width: 70px;
+  width: 5vw;
   border-radius: 20px;
-  margin-right: 10px;
+  margin-right: 4%;
+}
+
+.container .hero-card .active-section .game-live .game-profile .game-title .game-name {
+  font-size: 0.9vw;
 }
 
 .container .hero-card .active-section .game-live .game-profile .game-title .view-status {
-  font-size: 12px;
+  font-size: 0.8vw;
   color: rgba(0, 0, 0, 0.479);
 }
 
@@ -212,23 +246,24 @@ body {
   color: rgba(0, 0, 0, 0.479);
   display: block;
   width: 90px;
-  margin: auto;
+  margin: 8% auto auto auto;
+  font-size: 0.8vw;
 }
 
 .multi-section .video-section {
-  width: 650px;
+  width: 45vw;
 }
 
 .multi-section .video-section-img {
-  width: 650px;
+  width: 45vw;
   border-radius: 15px;
 }
 
 .multi-section .video-section .video-duration {
   position: relative;
-  top: -360px;
-  left: 560px;
-  font-size: 13px;
+  top: -24vw;
+  left: 38vw;
+  font-size: 1vw;
 }
 
 .multi-section .players-list {
@@ -241,165 +276,187 @@ body {
 }
 
 .multi-section .players-list-title {
-  font-size: 13px;
-  color: rgba(0, 0, 0, 0.719);
-  padding-right: 20px;
+  font-size: 1vw;
+  color: rgba(0, 0, 0, 0.596);
+  padding-right: 3%;
 }
 
 .multi-section .players-list .list-profile-img {
-  width: 45px;
-  height: 45px;
-  margin: 0 10px;
+  width: 3vw;
+  height: 6vh;
+  margin: 0 0.5vw;
   border-radius: 50%;
 }
 
 .multi-section .players-list-link {
   color: black;
-  font-size: 12px;
+  font-size: 0.8vw;
+  padding-left: 3%;
 }
 
 .multi-section .popular {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 30px;
-  width: 350px;
+  margin-top: 4%;
+  width: 25vw;
 }
 
 .multi-section .popular .most-popular-img {
-  width: 350px;
+  width: 25vw;
   border-radius: 20px;
-  margin-right: 20px;
+  margin-right: 1vw;
 }
 
 .multi-section .popular .most-popular-content {
-  margin-top: -160px;
-  padding: 0 20px;
+  margin-top: -40%;
+  padding: 0 4%;
 }
 
 .multi-section .popular .most-popular-content .most-popular-budge {
   background-color: white;
-  font-size: 13px;
-  padding: 5px 10px;
+  font-size: 0.9vw;
+  padding: 1% 4%;
   border-radius: 5px;
   position: relative;
-  top: -150px;
-  left: 240px;
+  top: -12vw;
+  left: 16vw;
 }
 
 .multi-section .popular .most-popular-content .most-popular-title {
   color: white;
-  font-size: 20px;
-  padding: 10px 0;
+  font-size: 1.4vw;
+  padding: 3% 0;
 }
 
 .multi-section .popular .most-popular-content .most-popular-sub-title {
   color: white;
-  font-size: 12px;
+  font-size: 0.8vw;
 }
 
 .multi-section .popular .most-popular-content .most-popular-sub-title time {
-  padding-left: 15px;
+  padding-left: 3%;
 }
 
 .multi-section .popular .most-popular-content .most-popular-text {
   color: white;
-  font-size: 14px;
-  padding: 10px 0;
+  font-size: 1vw;
+  padding: 1% 0;
 }
 
 .multi-section .popular-feed .recommmend {
-  height: 190px;
+  height: 26vh;
 }
 
 .multi-section .popular-feed .recommmend-img {
-  width: 250px;
-  height: 140px;
+  width: 20vw;
+  height: 22vh;
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
   border-radius: 20px;
+  z-index: -1;
 }
 
 .multi-section .popular-feed .recommmend .recommend-content {
-  margin-top: -55px;
-  margin-left: 20px;
-  color: #ff6d00;
+  position: relative;
+  top: -4vw;
+  left: 1vw;
+  color: white;
   font-weight: bolder;
+  z-index: 5;
+}
+
+.multi-section .popular-feed .recommmend .recommend-content .recommend-title {
+  font-size: 1vw;
+}
+
+.multi-section .popular-feed .recommmend .recommend-content .recommend-sub-title {
+  font-size: 0.9vw;
+  font-weight: lighter;
 }
 
 .news-section .profile-card {
   background-color: white;
-  width: 300px;
-  margin: 0 30px;
+  width: 20vw;
+  height: 64vh;
+  margin: 0 8%;
   text-align: center;
   border-radius: 20px;
 }
 
 .news-section .profile-card-img {
-  width: 300px;
+  width: 20vw;
   border-radius: 20px 20px 0 0;
 }
 
 .news-section .profile-card-body {
-  padding-bottom: 20px;
+  padding-bottom: 8%;
+}
+
+.news-section .profile-card-body .profile-card-title {
+  padding-top: 8%;
+  font-size: 1.2vw;
 }
 
 .news-section .profile-card-body .profile-card-text {
-  font-size: 13px;
+  font-size: 0.8vw;
   color: rgba(0, 0, 0, 0.479);
-  width: 210px;
-  margin: 20px auto;
+  width: 14vw;
+  margin: 4% auto;
 }
 
 .news-section .profile-card-body .profile-achivement {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 160px;
+  width: 9vw;
   margin: auto;
 }
 
 .news-section .profile-card-body .profile-achivement .played-games-title {
-  font-size: 20px;
+  font-size: 1.2vw;
 }
 
 .news-section .profile-card-body .profile-achivement .played-games .played-game-sub-title {
-  font-size: 10px;
+  font-size: 0.6vw;
   font-weight: bolder;
   color: rgba(0, 0, 0, 0.479);
 }
 
 .news-section .profile-card-body .profile-achivement .ratings {
-  margin-left: 30px;
+  margin-left: 10%;
 }
 
 .news-section .profile-card-body .profile-achivement .ratings-title {
-  font-size: 20px;
+  font-size: 1.2vw;
 }
 
 .news-section .profile-card-body .profile-achivement .ratings .ratings-sub-title {
-  font-size: 10px;
+  font-size: 0.6vw;
   font-weight: bolder;
   color: rgba(0, 0, 0, 0.479);
 }
 
 .news-section .pop-up-news {
   background-color: white;
-  width: 300px;
-  margin: 30px 30px;
+  width: 20vw;
+  margin: 5% 8%;
   border-radius: 20px;
 }
 
 .news-section .pop-up-news .pop-up-title {
-  padding: 20px 10px;
-  color: rgba(0, 0, 0, 0.719);
+  padding: 7% 4%;
+  color: rgba(0, 0, 0, 0.596);
+  font-size: 0.8vw;
 }
 
 .news-section .pop-up-news .pop-up-img {
-  width: 300px;
+  width: 20vw;
 }
 
 .news-section .pop-up-news .pop-up-text {
-  font-size: 12px;
-  padding: 15px;
+  font-size: 0.8vw;
+  padding: 5%;
   color: rgba(0, 0, 0, 0.479);
 }
 /*# sourceMappingURL=style.css.map */

@@ -3,49 +3,50 @@
     .hero-card {
         background-color: $white;
         display: flex;
-        padding: 40px 40px 0 40px;
-        height: 900px;
+        padding: 3% 3% 0 3%;
+        width: 60vw;
+        height: 120vh;
         border-radius: 20px;
         .active-section {
-            width: 300px;
+            width: 15vw;
             &-title {
                 color: $headingMuted;
-                font-size: 13px;
-                padding-bottom: 10px;
+                font-size: 0.8vw;
+                padding-bottom: 4%;
             }
             .filter {
                 display: flex;
                 .game-dropdown {  
                     .filter-title {
                         color: $textMuted;
-                        font-size: 12px;
+                        font-size: 0.8vw;
                     }
                     .filter-dropdown-menu {
                         display: none;
-                        width: 100px;
+                        width: 7vw;
                         .filter-dropdown-item {
-                            padding:10px 0;
+                            padding:3% 0;
                             .filter-dropdown-links {
                                 color: $textMuted;
-                                font-size: 12px;
+                                font-size: 0.8vw;
                             }
                         }
                     }
                 }
                 .views-dropdown {  
-                    padding-left: 30px;
+                    padding-left: 9%;
                     .filter-title {
                         color: $textMuted;
-                        font-size: 12px;
+                        font-size: 0.8vw;
                     }
                     .filter-dropdown-menu {
                         display: none;
-                        width: 100px;
+                        width: 7vw;
                         .filter-dropdown-item {
-                            padding:10px 0;
+                            padding:3% 0;
                             .filter-dropdown-links {
                                 color: $textMuted;
-                                font-size: 12px;
+                                font-size: 0.8vw;
                             }
                         }
                     }
@@ -55,18 +56,18 @@
                 .game-profile {
                     display: flex;
                     align-items: center;
-                    padding: 20px 0;
+                    padding: 4% 0;
                     .game-profile-img {
-                        width: 70px;
+                        width: 5vw;
                         border-radius: 20px;
-                        margin-right: 10px;
+                        margin-right: 4%;
                     }
                     .game-title {
                         .game-name {
-
+                            font-size: 0.9vw;
                         }
                         .view-status {
-                            font-size: 12px;
+                            font-size: 0.8vw;
                             color: $textMuted;
                         }
                     }
@@ -75,7 +76,8 @@
                     color: $textMuted;
                     display: block;
                     width: 90px;
-                    margin: auto;
+                    margin: 8% auto auto auto;
+                    font-size: 0.8vw;
                 }
             }
         }
