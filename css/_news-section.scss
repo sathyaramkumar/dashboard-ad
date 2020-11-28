@@ -3,8 +3,8 @@
     .profile-card {
         background-color: white;
         width: 20vw;
-        height: 64vh;
-        margin: 0 8%;
+        height: 65vh;
+        margin: 0;
         text-align: center;
         border-radius: 20px;
         &-img {
@@ -12,7 +12,6 @@
             border-radius: 20px 20px 0 0;
         }
         &-body {
-            padding-bottom: 8%;
             .profile-card-title {
                 padding-top: 8%;
                 font-size: 1.2vw;
@@ -55,7 +54,7 @@
     .pop-up-news {
         background-color: white;
         width: 20vw;
-        margin: 5% 8%;
+        margin: 5% 0;
         border-radius: 20px;
         .pop-up-title {
             padding: 7% 4%;

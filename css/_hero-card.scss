@@ -1,11 +1,13 @@
 .container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 66vw 20vw;
+    grid-gap: 2%;
     .hero-card {
         background-color: $white;
         display: flex;
         padding: 3% 3% 0 3%;
-        width: 60vw;
-        height: 120vh;
+        width: 66vw;
+        height: 125vh;
         border-radius: 20px;
         .active-section {
             width: 15vw;
@@ -57,6 +59,7 @@
                     display: flex;
                     align-items: center;
                     padding: 4% 0;
+                    width: 20vw;
                     .game-profile-img {
                         width: 5vw;
                         border-radius: 20px;

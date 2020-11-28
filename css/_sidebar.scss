@@ -23,6 +23,7 @@
             &-link{
                 font-size: 1.5vw;
                 color: $textMuted;
+                border-bottom: 2px solid transparent;
                 &:hover {
                     color: $pink;
                     border-bottom: 2px solid $pink;
